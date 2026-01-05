@@ -332,6 +332,7 @@ export default {
     "Jaws of the Lion": "Oroszlánfalka",
     "cs": "Crimson Scales",
     "Crimson Scales": "Crimson Scales",
+    "mp": "Mercenary Pack",
     "Availability": "Elérhetőség",
     "Sticker": "Matrica",
     "State": "Állapot",

@@ -332,6 +332,7 @@ export default {
     "Jaws of the Lion": "Les Machoires du Lion",
     "cs": "Crimson Scales",
     "Crimson Scales": "Crimson Scales",
+    "mp": "Mercenary Pack",
     "Availability": "Disponibilité",
     "Sticker": "Autocollant",
     "State": "État",

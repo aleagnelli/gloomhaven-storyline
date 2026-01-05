@@ -331,6 +331,7 @@ export default {
     "jotl": "Челюсти льва",
     "Jaws of the Lion": "Челюсти льва",
     "cs": "Багровая чешуя",
+    "mp": "Mercenary Pack",
     "Crimson Scales": "Багровая чешуя",
     "Availability": "Доступность",
     "Sticker": "Наклейка",

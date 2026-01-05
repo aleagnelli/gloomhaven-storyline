@@ -330,6 +330,7 @@ export default {
     "jotl": "Jaws of the Lion (Szczęki Lwa)",
     "Jaws of the Lion": "Jaws of the Lion (Szczęki Lwa)",
     "cs": "Crimson Scales",
+    "mp": "Mercenary Pack",
     "Crimson Scales": "Crimson Scales",
     "Availability": "Dostępność",
     "Sticker": "Naklejka",

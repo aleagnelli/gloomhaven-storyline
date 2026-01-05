@@ -4,4 +4,5 @@ export const Game = Object.freeze({
     "fc": "fc",
     "jotl": "jotl",
     "cs": "cs",
+    "mp": "mp"
 });

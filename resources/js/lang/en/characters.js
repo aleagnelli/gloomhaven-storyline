@@ -915,5 +915,25 @@ export default {
             "Whenever you declare a long rest during card selection, gain {SHIELD.fh}1 for the round",
             "Gain advantage on all your attacks performed while occupying or targeting enemies occupying water hexes"
         ]
+    },
+    "ANAPHI": {
+        "name": "Anaphi the Mindthief",
+        "masteries": [
+            "Have 3 different summons kill 3 enemies each",
+            "In each of 3 scendarios, perform 8 attacks targeting enemies that have negative conditions"
+        ],
+        "perks": [
+            "Replace one {-2_WHITE} card with one {+0_WHITE} cards",
+            "Replace one {-1_WHITE} card with one {+0_WHITE} {POISON} cards",
+            "Replace two {+0_WHITE} card with one {+1_WHITE} “Add +1 {ATTACK} when drawn by a summon” card",
+            "Replace one {+0_WHITE} card with one {+0_WHITE} {STUN} card",
+            "Replace one {+1_WHITE} card with one {+1_WHITE} “{INVISIBLE}, self” card",
+            "Add one {+2_WHITE} {WIND_OR_DARK} card",
+            "Add one {+2_WHITE} “{STRENGTHEN}, {TARGET} 1 of your summons” card",
+            "Ignore negative scenario effects and remove one {+0_WHITE} card",
+            "Whenever you long rest, you may {WIND_OR_DARK}",
+            "Once each scenario, during your turn, all enemies adjacent to a wall suffer 1 {DAMAGE.fh}",
+            "At the start of the first round of each scenario, after all ability cards have been revealed control one enemy within {RANGE.fh} 5: {MOVE} 2",
+        ]
     }
 }

@@ -37,11 +37,11 @@ export default class GameData {
     }
 
     beta() {
-        return []
+        return [Game.mp]
     }
 
     purchasable() {
-        return [Game.gh, Game.fh]
+        return [Game.gh, Game.fh, Game.mp]
     }
 
     free() {
