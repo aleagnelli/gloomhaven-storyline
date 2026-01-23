@@ -9525,6 +9525,228 @@
                     ]
                 }
             ]
+        },
+        "SATHA": {
+            "id": "SATHA",
+            "name": "Satha Mayor of Frosthaven",
+            "game": "mp",
+            "translatedName": "characters.SATHA.name",
+            "abilityCount": 10,
+            "starting_group": [],
+            "summons": [],
+            "masteries": [
+               "For an entire scenario, have at least one ally perform a move or attack ability during each of your turns except when performing a long rest",
+               "For an entire scenario, never have an ally be a target of an attack"
+            ],
+            "perks": [
+                {
+                    "type": "replace",
+                    "desc": "Replace one {-2_WHITE} card with one {+0_WHITE} cards",
+                    "count": 1,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "minus2"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "replace",
+                    "desc": "Replace one {-1_WHITE} card with one “{SHIELD.fh} 1” {AGAIN} card",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "minus1"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus0",
+                                "rolling": true,
+                                "effects": [
+                                    {
+                                        "type": "shield",
+                                        "value": 1,
+                                        "effects": [
+                                            {
+                                                "type": "specialTarget",
+                                                "value": "self"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "replace",
+                    "desc": "Replace one {-1_WHITE} card with one {+0_WHITE} {ICE} card",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "minus1"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus0",
+                                "effects": [
+                                    {
+                                        "type": "element",
+                                        "value": "ice"
+                                    }
+                                ]
+                            }
+                        }
+
+                    ]
+                },
+                {
+                    "type": "replace",
+                    "desc": "Replace two {+0_WHITE} cards with one “{HEAL.fh} 1, {TARGET.fh} 1 ally and self” card",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 2,
+                            "attackModifier": {
+                                "type": "plus0"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus0_heal1allyandself"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "replace",
+                    "desc": "Replace two {+1_WHITE} cards with two {+2_WHITE} cards",
+                    "count": 1,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus1"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "add",
+                    "desc": "Add one {+0_WHITE} “Grant one ally within {RANGE.fh} 3: {ATTACK.fh} +2 {RANGE.fh} 3 or {ATTACK.fh} 3” card",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus0_grant_ally_attack"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "add",
+                    "desc": "Add one {DISARM.fh}{AGAIN} and one {+0_WHITE} “Grant one ally within {RANGE.fh} 3: {MOVE.fh} 2” {AGAIN} card",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "plus2_grant_ally_move_rolling"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "add",
+                    "desc": "Add two “{WARD.fh}, {RANGE.fh} 1” {AGAIN} cards",
+                    "count": 2,
+                    "cards": [
+                        {
+                            "count": 2,
+                            "attackModifier": {
+                                "type": "plus0_wardrange1_rolling"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "custom",
+                    "desc": "Ignore item {-1} effects and whenever you would gain {STUN.fh}, prevent the condition",
+                    "count": 1,
+                    "custom": "ignoreNegativeItem",
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "TODO card name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "custom",
+                    "desc": "Whenever you long rest, perform: {STRENGTHEN.fh}, {TARGET.fh} 1 ally, {RANGE.fh} 3",
+                    "count": 1,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "TODO card name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "custom",
+                    "desc": "All initiative values may be discussed freely and precisely",
+                    "count": 1,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "TODO card name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "custom",
+                    "desc": "The first time each scenario that you or an ally exhaust, perform: {HEAL.fh} 3, {TARGET.fh} all, {WARD.fh}, {STRENGTHEN.fh}",
+                    "count": 1,
+                    "cards": [
+                        {
+                            "count": 1,
+                            "attackModifier": {
+                                "type": "TODO card name"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     },
     "order": [
@@ -9582,7 +9804,8 @@
         "ME",
         "DT",
         "CR",
-        "ANAPHI"
+        "ANAPHI",
+        "SATHA"
     ],
     "starting_group": [
         "gh_unlocked",

@@ -935,5 +935,26 @@ export default {
             "Once each scenario, during your turn, all enemies adjacent to a wall suffer 1 {DAMAGE.fh}",
             "At the start of the first round of each scenario, after all ability cards have been revealed control one enemy within {RANGE.fh} 5: {MOVE} 2",
         ]
+    },
+    "SATHA": {
+        "name": "Satha Mayor of Frosthaven",
+        "masteries": [
+            "For an entire scenario, have at least one ally perform a move or attack ability during each of your turns except when performing a long rest",
+            "For an entire scenario, never have an ally be a target of an attack"
+        ],
+        "perks": [
+            "Replace one {-2_WHITE} card with one {+0_WHITE} cards",
+            "Replace one {-1_WHITE} card with one “{SHIELD.fh} 1” {AGAIN} card",
+            "Replace one {-1_WHITE} card with one {+0_WHITE} {ICE} card",
+            "Replace two {+0_WHITE} cards with one “{HEAL.fh} 1, {TARGET.fh} 1 ally and self” card",
+            "Replace two {+1_WHITE} cards with two {+2_WHITE} cards",
+            "Add one {+0_WHITE} “Grant one ally within {RANGE.fh} 3: {ATTACK.fh} +2 {RANGE.fh} 3 or {ATTACK.fh} 3” card",
+            "Add one {DISARM.fh}{AGAIN} and one {+0_WHITE} “Grant one ally within {RANGE.fh} 3: {MOVE.fh} 2” {AGAIN} card",
+            "Add two “{WARD.fh}, {RANGE.fh} 1” {AGAIN} cards",
+            "Ignore item {-1} effects and whenever you would gain {STUN.fh}, prevent the condition",
+            "Whenever you long rest, perform: {STRENGTHEN.fh}, {TARGET.fh} 1 ally, {RANGE.fh} 3",
+            "All initiative values may be discussed freely and precisely",
+            "The first time each scenario that you or an ally exhaust, perform: {HEAL.fh} 3, {TARGET.fh} all, {WARD.fh}, {STRENGTHEN.fh}",
+        ]
     }
 }
